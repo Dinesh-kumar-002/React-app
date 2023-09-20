@@ -1,0 +1,33 @@
+body{
+    color: white;
+}
+.navbar-brand{
+    font-weight: 800;
+}
+.unordered-list{
+    list-style: none;
+}
+.unordered-list li{
+    padding: 10px 0;
+    text-align: start;
+}
+.text{
+    font-weight: 800;
+    color: white;
+}
+.menu-bar{
+    display:none;
+}
+.form-control{
+    box-shadow: none !important;
+    border-radius: 20px;
+    border: 0;
+    padding: 15px 20px;
+    appearance: none;
+    background-color: rgba(240, 248, 255, 0.824);
+}
+@media screen and (max-width:720px) {
+    .menu-bar{
+        display: block;
+    }
+}
